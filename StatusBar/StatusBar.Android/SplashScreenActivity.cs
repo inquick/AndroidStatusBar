@@ -7,7 +7,7 @@ using StatusBar.Droid;
 
 namespace StatusBar.Droid
 {
-    [Activity(Label = "StatusBar.Android", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, Theme = "@style/StatusBar.SplashScreen")]
+    [Activity(Label = "StatusBar.Android Launcher", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, Theme = "@style/StatusBar.SplashScreen")]
     public class SplashActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
